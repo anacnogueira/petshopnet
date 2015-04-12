@@ -1,0 +1,33 @@
+/* CSS Float */
+.div_float 
+{
+	display: none;
+    position: absolute;
+	left:200px;
+	top:100px;
+	width:530px;
+	height:490px;
+	background:#fff;
+	padding:20px;	
+	border: 1px solid #000;
+	z-index: 50;
+	color: #000000;
+}
+
+.div_float label,span,a{ color:#000000}
+
+.handle 
+{
+  background-color:#5588bb;
+  padding:2px;
+  text-align:center;
+  font-weight:bold;			
+  vertical-align:middle;
+}
+
+#reply { padding:5px; }
+
+.close {  
+ float:right;
+ text-decoration:none;
+}

@@ -1,0 +1,43 @@
+/*--------------------------------------------------------'
+   SIPAC - Sistema Integrado de Painel de Controle V 2.0  '
+ 	 Criado por Ana Claudia Nogueira                        '
+ 	 Folha de estilo do calendario			                    '
+   Criação 03/09/2007                                     '
+   Última Modificação: __/__/____                         '
+---------------------------------------------------------*/
+body{ background : #fff; }
+
+.tabCalendario
+{
+ width:270px;
+ tex-align: center;
+ background: #ffffff;
+}
+
+a
+{
+ text-decoration: none;
+ color: #000;
+ }
+.cabecalhoCalendario td
+{
+ border-bottom: 1px solid #fff;
+ border-left: 1px solid #fff;
+}
+.cabecalhoCalendario, .cabecalhoCalendario a
+{
+ font: Bold 11px Arial;
+ color: #FFFFFF;
+ background-color: #0066cc;
+ height: 25px;
+ text-align:center;
+}
+.listaItem  {  background: #ffffff; }
+.listaItem, .listaItem_Over { text-align:center;  }
+.Hoje { background-color: #ffff00; }
+.listaItem_Over  { background: #ccffff; }
+
+.returnData { cursor:pointer }
+
+
+

@@ -1,0 +1,52 @@
+/* CSS Document IN construction*/
+*{
+ margin: 0;  padding: 0;
+}
+
+/* Tags */
+ html, body{
+	height: 100%;
+	font-family: arial,verdana, tahoma,sans-serif;
+ font-size: 12px;
+ color: #000000;
+ background-color: #FED564;
+ }
+
+div#content{
+ width: 592px;
+ margin: 0 auto;
+
+}
+
+div.logo{ text-align:center; }
+
+div.aviso{
+ background-color: #ccc;
+ padding: 10px;
+ }
+ 
+h1{
+ color: #FE003C;
+ text-align: center;
+}
+
+div#lancamento{
+ color:#666;
+ font-size: 16px;
+ text-align:center;
+ font-weight: bold;
+}
+
+div#footer{
+clear:both;
+  width:98%;
+	position: absolute;
+	bottom: 0;
+ 	text-align:center;
+ 	margin: 0 11px 0 11px;
+  vertical-align: middle;
+  font-size: 11px;
+  color: #666;
+}
+
+

@@ -1,0 +1,470 @@
+/*--------------------------------------------------------'
+   SIPAC - Sistema Integrado de Painel de Controle V 2.0  '
+ 	 Criado por Ana Claudia Nogueira                        '
+ 	 Folha de estilo principal			                        '
+   Criação 03/09/2007                                     '
+   Última Modificação: __/__/____                         '
+---------------------------------------------------------*/
+
+/* ---Tags Comuns --- */
+*
+{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  font-family: arial;
+	font-size: 12px;
+	color: #000000;
+  background: #efefef;
+}
+div.ajuda {
+ background:#fff;
+ padding: 10px;
+}
+a img { text-decoration: none; border:0;}
+ table td
+ {
+  padding: 2px;
+ }
+ li
+ {
+ margin-left:15px;
+ list-style-type:none;
+ }
+ 
+ .aviso, .erro {
+ margin:5px auto;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ padding:10px;
+ color: #333;
+}
+.erro
+{
+ background: #FFEBE8;
+ border: 1px solid #ff0000;
+}
+ .aviso{
+  background: #FFFFE0;
+ border: 1px solid #E6DB55;
+ }
+/* Topo */
+#topo
+{
+	font-family:verdana;
+	font-size:11px;
+	background: #0066cc;
+	color: #ffffff;
+	height:124px;
+}
+
+#topo_site{
+ background: #666;
+ padding: 5px
+}
+#topo_site a{
+ padding-left: 15px;
+ text-decoration: none;
+ color:#fff;
+}
+
+#topo_site span{
+ float: right;
+ cursor:pointer;
+ color: #fff;
+}
+
+.logo
+{
+	margin: 8px;
+	vertical-align:middle;
+	float:left;
+}
+.logo_empresa
+{
+ float:right;
+ position:relative;
+ font-weight: bold;
+ margin: 8px;
+}
+.logo_empresa img
+{
+ vertical-align:top;
+ width:100px;
+}
+.login
+{
+ margin-top: -25px;
+ margin-left: 5px;
+ clear:both;
+ float:left;
+}
+.menuLogin
+{
+  margin:0 auto;
+  background: url(../banco_imagens/menu_login.gif) no-repeat;
+ width:350px;
+ height:18px;
+ position:relative;
+	margin-top:87px;
+  text-align:center;
+	padding-top:5px;
+}
+ .menuLogin a
+{
+	color: #ffffff;
+	text-decoration:none;
+}
+span.data
+{
+	position:absolute;
+	top:95px;
+}
+
+/* Menu lateral */
+#menu_lateral
+{
+	padding-top: 5px;
+	background:#efefef;
+	width: 18%;
+	float:left;
+	min-height: 300px;
+	height:auto !important;
+	height: 302px;
+}
+#menu_lateral ul
+{
+ padding-left: 20px;
+}
+li.menu_modulo
+{
+ font-weight:bold;
+ margin-left:5px;
+ padding-left:0px;
+ list-style-image:url(../banco_imagens/expand.gif);
+ vertical-align: text-top;
+ margin-bottom: -2px;
+}
+li.menu_sub
+{
+  font-weight:normal;
+	margin-left:-15px;
+	padding-left:0px;
+	list-style-image:url(../banco_imagens/T.gif);
+	vertical-align: super;
+	margin-bottom: -3px;
+
+}
+li.menu_sub_last
+{
+ font-weight:normal;
+ list-style-image:url(../banco_imagens/line_l.gif);
+ margin-left:-15px;
+ padding-left:0px;
+}
+li.menu_sub a, li.menu_sub_last a
+{
+vertical-align: super;
+ color: #000;
+	text-decoration:none;
+}
+
+li.menu_sub a:hover, li.menu_sub_last a:hover
+{
+ font-weight: bold;
+ color: #006;
+}
+ 
+/* Conteudo Index */
+#conteudo_index
+{
+	min-height: 438px;
+	height:auto !important;
+	height: 438px;
+  background: #ffffff;
+}
+ul#box
+{
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+  background: #cccccc;
+  padding:10px;
+  width: 100px;
+}
+ul#box li{padding:0;margin:0;}
+ul#nav
+{
+ float:right;
+ width: 510px;
+ margin-right: 280px;
+
+}
+
+#nav li
+{
+	float: left;
+	position: relative;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+	font-weight: bold;
+	list-style-image:url(../banco_imagens/expand.gif);
+ 	width:159px;
+}
+ #nav li li
+{
+	list-style-image:url(../banco_imagens/line_l.gif);
+	font-weight:normal;
+ 	clear:both;
+  position: relative;
+	float: left;
+ padding: 0; margin: 0;
+	display: block;
+
+}
+ #nav li li a
+{
+ text-decoration: none;
+ color: #000;
+}
+#nav li li a:hover
+{
+ font-weight: bold;
+ color: #006;
+}
+
+/* Conteúdo */
+#conteudo
+{
+  width: 80%;
+	min-height: 399px;
+	height:auto !important;
+	height: 399px;
+	float:right;
+	background: #ffffff;
+	border-left:1px solid #999;
+  padding:5px;
+}
+/* rodapé */
+#rodape
+{
+	clear:both;
+	position:relative;
+	color: #ffffff;
+	background: #333333;
+	padding-left: 10px;
+	padding: 4px;
+	font-size: 11px;
+}
+
+/* Modulos */
+#filtro
+ {
+  background: #ccc;
+  border: #999999 1px solid;
+  width: 100%;
+ }
+.TextoPequeno
+{
+	font: 11px arial;
+  color: #333333
+}
+.Tab
+{
+ width: 100%;
+ background: #ccc;
+ position:relative;
+}
+
+.Tab img{
+ vertical-align: middle;
+ text-align: center;
+ margin: 5px;
+}
+td.rotina {text-align: center;width: 50px;}
+.Tab ul li {
+ padding-right: 5px;
+ display: inline
+}
+
+.cabecalho
+{
+ cursor: pointer;
+ font: Bold 11px Arial;
+ color: #FFFFFF;
+ background-color: #0066cc;
+ height: 25px;
+ text-align:center;
+}
+.TableLista
+{
+	background: #ccc;
+	border: #999999 1px solid;
+	width: 100%;
+}
+.listaItem, .listaItem_Over
+{
+	font: 11px Verdana;
+	color: #333333;
+	background: #F7F7F7;
+	height: 20px;
+}
+.listaItem_Over { background: #ccffff; }
+.OrdLista
+{
+	font: 16px webdings;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.titulo
+{
+  font: Bold 13px Arial;
+  background: #efefef;
+  border: #999999 1px solid;
+  color: #ff0000;
+  margin-bottom: 5px;
+  padding:4px;
+}
+.paginacao,.paginacao a, .BarraPag, .BarraPag a
+{
+ background: #999;
+ color: #fff;
+ font-size: 11px;
+ text-decoration: none;
+ text-align:center;
+}
+.legenda
+{
+ text-align:right;
+}
+/* Paginação */
+.paginacao
+{
+  text-align:center;
+  height:25px;
+}
+.paginacao li {display: inline;}
+.paginacao img {vertical-align:top;}
+/* Formulários */
+input
+{
+	border: solid 1px #999999;
+	font: 11px Verdana;
+}
+input.checkbox
+{
+	border: none;
+}
+
+textarea
+{
+ font: 11px Verdana;
+ font-size: 10px;
+ border: 1px solid #999999;
+ background: #ffffff;
+}
+select
+{
+ border: 1px solid #999999;
+ font: 11px Verdana;
+ color: #000000;
+ text-align: left;
+}
+select.log, input.palavrachave { width:200px; }
+select.select_mult
+{
+ width:280px;
+}
+
+input.readonly{
+ border: none;
+ background: none;
+}
+
+/* Outros */
+a.link
+{
+ color: #000;
+ font-size: 12px;
+ text-decoration: none;
+ font-weight:bold;
+}
+.required
+{
+ color:#ff0000;
+ font-size: 12px;
+}
+.descCampo
+{
+  color:#666666;
+ font-size: 11px;
+}
+
+td.Sels
+{
+  width:18px;
+  text-align:center
+}
+.calendar {
+ cursor: pointer;
+ vertical-align:middle;
+}
+
+/* Newsletters */
+div.div_produtos { float:left;}
+div.div_produtos_select {float:right;margin-right:25px;}
+div.div_btns {width:150px;margin:0 auto;margin-top: 50px;}
+div.div_btns input {
+ width:100px;
+margin:5px;
+}
+
+/* PEDIDOS */
+div.vendido_guia {
+ float: right;
+ margin-right: 105px;
+}
+
+body.guia{ background: #fff; }
+
+div.total_guia{
+ text-align:right;
+}
+
+div.found{
+ border:1px solid #999;
+ border-top:none;
+ background: #fff;
+ width:200px;
+ position:absolute;
+ z-index:999;
+}
+
+div.found div.listaItem{
+ border:none;
+ cursor:pointer;
+ padding: 4px;
+ height: 14px;
+}
+
+/* Lista de imagens */
+div#list_images{
+ 
+ 
+ width: auto;
+}
+
+div#list_images div{
+  position: relative;
+ display:block;
+ width:145px;
+ float:left;
+ margin-right:10px;
+ margin-bottom:15px;
+ text-align:center;
+ /* border: 1px solid black; */
+}

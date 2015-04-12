@@ -1,0 +1,108 @@
+/*--------------------------------------------------------'
+   SIPAC - Sistema Integrado de Painel de Controle V 2.0  '
+ 	 Criado por Ana Claudia Nogueira                        '
+ 	 Folha de estilo Login			                        '
+   Criação 02/09/2007                                     '
+   Última Modificação: 19/03/2009                         '
+---------------------------------------------------------*/
+
+* {
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ font-family: arial;
+ font-size: 12px;
+ background: #0066cc;
+ color: #fff;
+}
+#topo_site{
+ background: #666;
+ padding: 5px
+}
+#topo_site a{
+ padding-left: 15px;
+ text-decoration: none;
+ color:#fff;
+}
+
+#lopo{
+ padding:10px;
+ float:right;
+}
+
+#topo img{ vertical-align:middle}
+
+#geral {
+  width: 50%;
+  margin: 0 auto;
+
+  }
+#sipac {
+ clear: both;
+ position:relative;
+ text-align:center;
+}
+#sipac h1{ font-size:16px; }
+
+#conteudo{
+ background: #fff;
+ border: 1px solid #999;
+ color: #000;
+ width: 300px;
+ margin:0 auto;
+ padding:20px;
+
+}
+input {
+ width: 295px;
+ background-color: #f4f4f4;
+ border: 1px solid #b2b2b2;
+ color: #000000;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: normal;
+ font-size: 13px;
+ line-height: normal;
+ font-size-adjust: none;
+ font-stretch: normal;
+ margin: 1px;
+ padding: 4px;
+}
+
+input:focus, label:focus {
+ background: #ffffff;
+ border: 1px  solid #686868;
+}
+
+input.btn{
+ width: auto;
+ margin: 1em 1em 0 0;
+
+}
+
+#aviso, #erro {
+ width:320px;
+ margin:5px auto;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ padding:10px;
+ color: #333;
+}
+#erro
+{
+ background: #FFEBE8;
+ border: 1px solid #ff0000;
+}
+ #aviso{
+  background: #FFFFE0;
+ border: 1px solid #E6DB55;
+ }
+
+#rodape {clear: both;text-align: center}
+
+.fechar{
+ float: right;
+ cursor:pointer;
+}

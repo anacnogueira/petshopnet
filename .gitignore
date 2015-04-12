@@ -1,0 +1,11 @@
+# User specific & automatically generated files #
+#################################################
+/app/tmp
+/docs
+/blog
+
+
+# OS generated files #
+######################
+
+Thumbs.db

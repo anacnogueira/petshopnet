@@ -1,0 +1,19 @@
+/* Menu lateral */
+#menu_lateral {	width: 15%; }
+li.menu_sub   { margin-left:10px; }
+
+.menuLogin
+{
+ width:99%;
+ height:18px;
+ margin:0 auto;
+ position:relative;
+ background: url(../banco_imagens/menu_login.gif) no-repeat center;
+ top:-20px;
+ text-align:center;
+ padding-top:5px;
+
+
+}
+
+div#conteudo{ width: 80%; }

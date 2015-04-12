@@ -1,0 +1,48 @@
+/* CSS Document IE */
+html, body,table{
+ height: auto;
+
+}
+#conteudo{
+ margin-top:0px;
+
+}
+div.menu_usuario{
+  width:120px;
+  margin-right:2%;
+}
+div.menu_usuario ul li,div.menu_usuario ul li img,div.menu_usuario ul li span {  width:auto; }
+#categorias ul li { margin-left:5px;}
+#parceiros { clear:both; }
+
+.menu_cortesia {
+margin-left: -20%;
+ width:auto;
+}
+
+span.form{
+z_index:999;
+width: 300px;
+}
+
+.faq ul li {  margin-left: 15px;  }
+
+div.mapa ul li { margin-left:25px; }
+
+div.mapa ul li li{
+margin-left:15px;
+padding-left: 10px;
+margin-bottom: -2px;
+}
+
+.cadastro ul li{
+ padding:10px;
+}
+
+#parceiros { width: 197px;  }
+
+.box{
+ width: 280px;
+}
+
+#rodape { width: 100%; }
